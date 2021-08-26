@@ -1,10 +1,54 @@
-*{
-    box-sizing: border-box;
-    font-family:'Segoe UI', 'Calibri', 'sans-serif';
-}
-body,
-h1,
-h2,
-h3{
-    margin: 0;
-}
+/* Content First-Alter Proytect*/       
+       *{
+            box-sizing: border-box;
+            font-family:'Segoe UI', 'Calibri', 'sans-serif';
+        }
+        body,
+        h1,
+        h2,
+        h3
+        .menu{
+            margin: 0;
+        }
+    /*Nagegacion*/
+        nav{
+            display:flex;
+            justify-content:space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            background: linear-gradient(#d3c,#36c);
+        }
+        nav a{
+            display:block;
+            color:aliceblue;
+            text-decoration:none;
+            padding: .5rem;
+
+
+        }
+        .logo{
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .btn{
+            background-color:transparent;
+            border: .1rem solid #eee;
+            color: #eee;
+            margin: .5rem;
+            border-radius: .25rem;
+
+
+        }
+        .btn:hover{
+            color:blue;
+            background-color:#eee;
+        }
+        .menu{
+            width: 100%;
+            padding: 0;
+            list-style: none;
+
+        }
+        .menu a:hover{
+            background-color:#3338;
+        }
