@@ -49,6 +49,9 @@
             list-style: none;
 
         }
+        .menu.active{
+            max-height: 600px;
+        }
         .menu a:hover{
             background-color:#3338;
         }
